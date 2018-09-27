@@ -22,8 +22,8 @@ Enable this option on ALL of the intents (don't forget the Default Welcome Inten
  
  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Fulfillment.png" width="65%" height="65%">
 
-<br />
-Always **SAVE** your changes on the intent's after modifying something.<br />
+Always **SAVE** your changes on the intent's after modifying something.
+
 <br />
 
 ### Configure Firebase <br />
@@ -60,9 +60,9 @@ On the same functions folder run **"firebase deploy"** to deploy your functions 
  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/FunctionURL.png" width="65%" height="65%">
 
 <br />
-Go to your Dialogflow agent page, click on **"Fulfillment"** on the left menu.<br />
-Then enable Webhook and past the link of the functions.<br />
-Save the changes.
+- Go to your Dialogflow agent page, click on **Fulfillment** on the left menu.<br />
+- Then enable Webhook and past the link of the functions.<br />
+- Save the changes.
 <br />
 
 <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Webhook.png" width="65%" height="65%">
@@ -71,7 +71,7 @@ Save the changes.
 
 **Test your bot with the simulator**
 <br />
- <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Simulator.png" width="65%" height="65%">
+ <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Simulator.png" width="30%" height="30%">
 <br />
 You can integrate your bot with Facebook or Slack in the "Integrations" menu of your Dialogflow console.
 
