@@ -7,9 +7,11 @@
 - Go to www.dialogflow.com log in with your GMAIL.
 - Create an agent.
 - Create the following intents:
-  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Intents.png" width="50%" height="50%">
+  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Intents.png" width="65%" height="65%">
+  <br />
 - Create training phrases for all of them like this:
-  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/rainingP.png" width="50%" height="50%">
+  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/rainingP.png" width="65%" height="65%">
+  <br />
 - Configure "Actions", "Parameters" and "Prompts" only for the **Book a table intent**:
   ![Actions and parameters](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/ActionsAndParameters.png | width=200)
 
