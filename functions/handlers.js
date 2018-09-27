@@ -1,17 +1,23 @@
+//helper functions to handle intents
 const { Image, List, Suggestions, Carousel } = require("actions-on-google");
+const listOfOptions = [
+  "Book a table",
+  "Show me the menu",
+  "House specials",
+  "Restaurant info"
+];
 
 const welcome = conv => {
   conv.ask("Hi there! What would you like to do today?");
-  conv.ask(
-    new Suggestions(["Book a table", "Show me the menu", "House specials"])
-  );
+  conv.ask(new Suggestions(listOfOptions));
 };
 
 const bookATable = (conv, { guests, date, time }) => {
   console.log("This is the date", date);
   date = new Date(`${date}`).toString().slice(0, 15);
   time = time.toString().slice(11, 16);
-
+  //You can add more conditionals in here, like the booking
+  //date and time have to greatear than the present.
   if (guests < 1) {
     conv.ask(
       "I'm sorry we need at least 1 guest to book your table! Try again please!"
@@ -21,9 +27,7 @@ const bookATable = (conv, { guests, date, time }) => {
       `Your table was booked for ${guests} persons on ${date} at ${time}.`
     );
     conv.ask("Would you like to do something else?");
-    conv.ask(
-      new Suggestions(["Book a table", "Show me the menu", "House specials"])
-    );
+    conv.ask(new Suggestions(listOfOptions));
   }
 };
 
@@ -32,6 +36,7 @@ const menu = conv => {
   conv.ask(
     new List({
       title: "Menu",
+      //You can add as many items as you want
       items: {
         ["Menu 01"]: {
           synonyms: ["menu 01", "item 01"],
@@ -88,7 +93,7 @@ const menu = conv => {
   );
   conv.ask("Would you like to do something else?");
   conv.ask(
-    new Suggestions(["Book a table", "Show me the menu", "House specials"])
+    new Suggestions(listOfOptions);
   );
 };
 
@@ -134,15 +139,27 @@ const houseSpecials = conv => {
     })
   );
   conv.ask("Would you like to do something else?");
+  conv.ask(new Suggestions(listOfOptions));
+};
+
+const restaurantInfo = conv => {
+  conv.ask("We are located on 944 Market st, San Francisco.");
+  //add phone number
   conv.ask(
-    new Suggestions(["Book a table", "Show me the menu", "House specials"])
+    new Image({
+      url:
+        "https://cdn.vox-cdn.com/thumbor/qtrH6pOAoml-LYysFBb8W8lc680=/0x0:960x776/1200x900/filters:focal(404x312:556x464)/cdn.vox-cdn.com/uploads/chorus_image/image/54422771/Taystee_s.0.0.jpg",
+      alt: "Our awesome restaurant is located on 944 Market st, San Francisco"
+    })
   );
+  conv.ask("Would you like to do something else?");
+  conv.ask(new Suggestions(listOfOptions));
 };
 
 const options = conv => {
   conv.ask("Hey there! What would you like to do?");
   conv.ask(
-    new Suggestions(["Book a table", "Show me the menu", "House specials"])
+    new Suggestions(listOfOptions);
   );
 };
 
@@ -151,5 +168,6 @@ module.exports = {
   bookATable,
   menu,
   houseSpecials,
-  options
+  restaurantInfo,
+  options,
 };

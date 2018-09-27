@@ -10,6 +10,7 @@ const {
   bookATable,
   menu,
   houseSpecials,
+  restaurantInfo,
   options
 } = require("./handlers");
 
@@ -20,6 +21,8 @@ app.intent("Book a Table", bookATable);
 app.intent("Menu", menu);
 
 app.intent("House Specials", houseSpecials);
+
+app.intent("Restaurant Info", restaurantInfo);
 
 app.intent("Options", options);
 
