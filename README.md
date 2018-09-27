@@ -7,6 +7,7 @@
 - Go to www.dialogflow.com log in with your GMAIL.
 - Create an agent.
 - Create the following intents:
+  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Intents.png" width="100" height="100">
   ![Intents](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Intents.png?v=4&s=200)
 - Create training phrases for all of them like this:
   ![Training Phrases](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/TrainingP.png){:height="50%" width="50%"}
