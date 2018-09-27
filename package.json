@@ -1,0 +1,27 @@
+{
+  "name": "DialogflowFirebaseRestaurantBot",
+  "version": "1.0.0",
+  "description": "Customizable Restaurant Bot using Google's Dialogflow and Firebase functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot.git"
+  },
+  "keywords": [
+    "Dialogflow",
+    "Firebase",
+    "Dialogflow and firebase",
+    "Dialogflow chatbot",
+    "Restaurant bot",
+    "Restaurant chatbot"
+  ],
+  "author": "Fernando De La Madrid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/issues"
+  },
+  "homepage": "https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot#readme"
+}
