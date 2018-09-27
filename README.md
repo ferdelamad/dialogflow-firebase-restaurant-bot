@@ -8,4 +8,8 @@ Create the following intents:
   - Menu
   - House Specials
   - Options
+
+Go all the way to the bottom part of an Intent's page and you will see Fulfillment.
+Click on: "Enable webhook call for this intent".
+Enable this option on ALL of the intents (don't forget the Default Welcome Intent as well).
   
