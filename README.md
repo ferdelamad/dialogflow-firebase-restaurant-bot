@@ -1,6 +1,8 @@
 # Dialogflow-Firebase Restaurant Bot
 
 **Customizable Restaurant Bot using Google's Dialogflow and Firebase functions.**
+<img src="http://g.recordit.co/HJnn9qZlTV.gif" width="85%" height="85%"><br />
+
 
 ### Configure Dialogflow <br />
 
