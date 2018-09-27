@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/issues"
   },
-  "homepage": "https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot#readme"
+  "homepage": "https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot#readme",
+  "dependencies": {}
 }
