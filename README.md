@@ -7,21 +7,19 @@
 - Go to www.dialogflow.com log in with your GMAIL.
 - Create an agent.
 - Create the following intents:
-  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Intents.png" width="65%" height="65%">
-  <br />
+  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Intents.png" width="65%" height="65%"><br />
 - Create training phrases for all of them like this:
-  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/rainingP.png" width="65%" height="65%">
-  <br />
+  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/TrainingP.png" width="65%" height="65%"><br />
 - Configure "Actions", "Parameters" and "Prompts" only for the **Book a table intent**:
-  ![Actions and parameters](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/ActionsAndParameters.png | width=200)
+  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/ActionsAndParameters.png" width="65%" height="65%"><br />
 
 <br />
 Go all the way to the bottom part of an Intent's page and you will see Fulfillment.<br />
 Click on: "Enable webhook call for this intent".<br />
 Enable this option on ALL of the intents (don't forget the Default Welcome Intent as well).
 <br />
-
-![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Fulfillment.png)
+ 
+ <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Fulfillment.png" width="65%" height="65%"><br />
 
 <br />
 Always **SAVE** your changes on the intent's after modifying something.<br />
