@@ -17,8 +17,10 @@
 Go all the way to the bottom part of an Intent's page and you will see Fulfillment.<br />
 Click on: "Enable webhook call for this intent".<br />
 Enable this option on ALL of the intents (don't forget the Default Welcome Intent as well).
-![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/ActionsAndParameters.png)
+<br />
+
 ![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Fulfillment.png)
+
 <br />
 Always **SAVE** your changes on the intent's after modifying something.<br />
 <br />
@@ -27,7 +29,10 @@ Always **SAVE** your changes on the intent's after modifying something.<br />
 <br />
 Go to https://firebase.google.com/ an you should be login automatically to the same GMAIL account.<br />
 On the top-right click on "GO TO CONSOLE", an voila your Dialogflow project should be there already.<br />
+<br />
+
 ![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Firebase_project.png)
+
 <br />
 
 **Do the following:**
