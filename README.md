@@ -7,6 +7,7 @@
 - Go to www.dialogflow.com log in with your GMAIL.
 - Create an agent.
 - Create the following intents:
+  <br />
   <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Intents.png" width="65%" height="65%"><br />
 - Create training phrases for all of them like this:
   <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/TrainingP.png" width="65%" height="65%"><br />
@@ -19,7 +20,7 @@ Click on: "Enable webhook call for this intent".<br />
 Enable this option on ALL of the intents (don't forget the Default Welcome Intent as well).
 <br />
  
- <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Fulfillment.png" width="65%" height="65%"><br />
+ <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Fulfillment.png" width="65%" height="65%">
 
 <br />
 Always **SAVE** your changes on the intent's after modifying something.<br />
@@ -31,7 +32,7 @@ Go to https://firebase.google.com/ an you should be login automatically to the s
 On the top-right click on "GO TO CONSOLE", an voila your Dialogflow project should be there already.<br />
 <br />
 
-![Firabse project](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Firebase_project.png)
+ <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Firebase_project.png" width="65%" height="65%">
 
 <br />
 
@@ -52,21 +53,26 @@ Watch the following tutorial: https://www.youtube.com/watch?v=DYfP-UIKxH0<br />
 
 On the same functions folder run **"firebase deploy"** to deploy your functions to handle the intents on the back-end.<br />
 
-**Copy the Function URL**<br />
-![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/FunctionURL.png)
+**Copy the Function URL**
+<br />
 
+
+ <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/FunctionURL.png" width="65%" height="65%">
+
+<br />
 Go to your Dialogflow agent page, click on **"Fulfillment"** on the left menu.<br />
 Then enable Webhook and past the link of the functions.<br />
 Save the changes.
 <br />
 
-![Webhook](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Webhook.png)
+<img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Webhook.png" width="65%" height="65%">
 
 <br />
 
 **Test your bot with the simulator**
-![Simulator](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Simulator.png | width=100)
-
+<br />
+ <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Simulator.png" width="65%" height="65%">
+<br />
 You can integrate your bot with Facebook or Slack in the "Integrations" menu of your Dialogflow console.
 
 **Happy hacking!**
