@@ -26,7 +26,7 @@ const bookATable = (conv, { guests, date, time }) => {
     conv.ask(
       `Your table was booked for ${guests} persons on ${date} at ${time}.`
     );
-    conv.ask("Would you like to do something else?");
+    conv.ask(" Would you like to do something else?");
     conv.ask(new Suggestions(listOfOptions));
   }
 };
@@ -91,10 +91,8 @@ const menu = conv => {
       }
     })
   );
-  conv.ask("Would you like to do something else?");
-  conv.ask(
-    new Suggestions(listOfOptions);
-  );
+  conv.ask(" Would you like to do something else?");
+  conv.ask(new Suggestions(listOfOptions));
 };
 
 const houseSpecials = conv => {
@@ -138,29 +136,27 @@ const houseSpecials = conv => {
       }
     })
   );
-  conv.ask("Would you like to do something else?");
+  conv.ask(" Would you like to do something else?");
   conv.ask(new Suggestions(listOfOptions));
 };
 
 const restaurantInfo = conv => {
-  conv.ask("We are located on 944 Market st, San Francisco.");
-  //add phone number
+  conv.ask(
+    "We are located on 944 Market st, San Francisco. You can reach us at (123) 456 6524. \n We are open from Monday to Saturday, from 9 am to 5 pm. \n"
+  );
   conv.ask(
     new Image({
-      url:
-        "https://cdn.vox-cdn.com/thumbor/qtrH6pOAoml-LYysFBb8W8lc680=/0x0:960x776/1200x900/filters:focal(404x312:556x464)/cdn.vox-cdn.com/uploads/chorus_image/image/54422771/Taystee_s.0.0.jpg",
-      alt: "Our awesome restaurant is located on 944 Market st, San Francisco"
+      url: "https://i.stack.imgur.com/ddX9U.png",
+      alt: "Our awesome restaurant is located on 944 Market st, San Francisco."
     })
   );
-  conv.ask("Would you like to do something else?");
+  conv.ask(" Would you like to do something else? ");
   conv.ask(new Suggestions(listOfOptions));
 };
 
 const options = conv => {
   conv.ask("Hey there! What would you like to do?");
-  conv.ask(
-    new Suggestions(listOfOptions);
-  );
+  conv.ask(new Suggestions(listOfOptions));
 };
 
 module.exports = {
@@ -169,5 +165,5 @@ module.exports = {
   menu,
   houseSpecials,
   restaurantInfo,
-  options,
+  options
 };
