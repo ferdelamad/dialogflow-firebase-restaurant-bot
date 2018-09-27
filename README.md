@@ -17,6 +17,7 @@
 Go all the way to the bottom part of an Intent's page and you will see Fulfillment.<br />
 Click on: "Enable webhook call for this intent".<br />
 Enable this option on ALL of the intents (don't forget the Default Welcome Intent as well).
+![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/ActionsAndParameters.png)
 ![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Fulfillment.png)
 <br />
 Always **SAVE** your changes on the intent's after modifying something.<br />
