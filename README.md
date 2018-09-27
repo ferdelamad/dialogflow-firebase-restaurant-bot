@@ -1,10 +1,8 @@
 # Dialogflow-Firebase Restaurant Bot
 
-Customizable Restaurant Bot using Google's Dialogflow and Firebase functions.
+## Customizable Restaurant Bot using Google's Dialogflow and Firebase functions.
 
-# Dialogflow-Firebase Restaurant Bot
-
-Configure Dialogflow<br />
+###Configure Dialogflow<br />
 
 - Go to www.dialogflow.com log in with your GMAIL.
 - create an agent.
@@ -18,32 +16,33 @@ Configure Dialogflow<br />
   <br />
   Always SAVE your changes on the intent's after modifying something.<br />
   <br />
-  Configure Firebase<br />
+
+  ###Configure Firebase<br />
   <br />
   Go to https://firebase.google.com/ an you should be login automatically to the same GMAIL account.<br />
   On the top-right click on "GO TO CONSOLE", an voila your Dialogflow project should be there already.<br />
-  ![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Firebase_project.png)
-  <br />
-  Do the following:
+  ![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Firebase_project.png)<br />
+
+  ** Do the following:**
 
 - Click on your project.
 - On the next page click on "Choose data sharing settings".
 - Check both boxes on the pop-up window that will open and click on "Finish".
   <br />
-  Install Firebase functions<br />
+  ###Install Firebase functions<br />
   <br />
-  Run: npm install -g firebase-tools<br />
-  Cd into the functions folder and run npm install<br />
+  **_Run: npm install -g firebase-tools_**<br />
+  **_Cd into the functions folder and run npm install_**<br />
   <br />
   Watch the following tutorial: https://www.youtube.com/watch?v=DYfP-UIKxH0<br />
   (you will not need to NPM install anything because everything is already in the package.json of the repo).<br />
 
   On the same functions folder run "firebase deploy" to deploy your functions to handle the intents on the back-end.<br />
 
-  Copy the Function URL
+  **_Copy the Function URL_**
   ![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/FunctionURL.png)
 
-  Go to your Dialogflow agent page, click on "Fulfillment" on the left menu.<br />
+  Go to your Dialogflow agent page, click on **_"Fulfillment"_** on the left menu.<br />
   Then enable Webhook and past the link of the functions.<br />
   Save the changes.
   ![alt text](https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Webhook.png)
