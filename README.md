@@ -12,4 +12,5 @@ Create the following intents:
 Go all the way to the bottom part of an Intent's page and you will see Fulfillment.
 Click on: "Enable webhook call for this intent".
 Enable this option on ALL of the intents (don't forget the Default Welcome Intent as well).
-  
+
+Always SAVE your changes on the intent's after modifying something.
