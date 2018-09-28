@@ -1,5 +1,13 @@
 //helper functions to handle intents
-const { Image, List, Suggestions, Carousel } = require("actions-on-google");
+const {
+  Image,
+  List,
+  Suggestions,
+  BasicCard,
+  Carousel,
+  Button
+} = require("actions-on-google");
+
 const listOfOptions = [
   "Book a table",
   "Show me the menu",
@@ -145,12 +153,22 @@ const restaurantInfo = conv => {
     "We are located on 944 Market st, San Francisco. You can reach us at (123) 456 6524. \n We are open from Monday to Saturday, from 9 am to 5 pm. \n"
   );
   conv.ask(
-    new Image({
-      url: "https://i.stack.imgur.com/ddX9U.png",
-      alt: "Our awesome restaurant is located on 944 Market st, San Francisco."
+    new BasicCard({
+      text: `We are locate at 📍__944 Market st__, San Francisco.  \nOur phone number is: 📱 (123) 345 6789`,
+      subtitle: "A little bit about our restaurant",
+      title: "Restaurant information",
+      buttons: new Button({
+        title: "Visit our website!",
+        url: "https://www.google.com/"
+      }),
+      image: new Image({
+        url:
+          "https://cdn-images-1.medium.com/max/1600/1*CmLh1VWDcPyzAmQLA8pLJg.png",
+        alt: "Image alternate text"
+      }),
+      display: "CROPPED"
     })
   );
-  conv.ask(" Would you like to do something else? ");
   conv.ask(new Suggestions(listOfOptions));
 };
 
