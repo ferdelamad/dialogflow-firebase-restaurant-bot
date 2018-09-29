@@ -2,10 +2,11 @@
 
 **Customizable Restaurant Bot using Google's Dialogflow and Firebase functions.**
 <br />
+<br />
 <img src="http://g.recordit.co/HJnn9qZlTV.gif" width="85%" height="85%"><br />
 
 
-### Configure Dialogflow <br />
+## Configure Dialogflow <br />
 
 - Go to www.dialogflow.com log in with your GMAIL.
 - Create an agent.
@@ -25,11 +26,9 @@ Enable this option on ALL of the intents (don't forget the Default Welcome Inten
  
  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Fulfillment.png" width="65%" height="65%">
 
-Always **SAVE** your changes on the intent's after modifying something.
+Always **SAVE** your changes on the intent's after modifying something.<br />
 
-<br />
-
-### Configure Firebase <br />
+## Configure Firebase <br />
 <br />
 Go to https://firebase.google.com/ an you should be login automatically to the same GMAIL account.<br />
 On the top-right click on "GO TO CONSOLE", an voila your Dialogflow project should be there already.<br />
@@ -46,7 +45,7 @@ On the top-right click on "GO TO CONSOLE", an voila your Dialogflow project shou
 - Check both boxes on the pop-up window that will open and click on "Finish".
   <br />
   
-### Install Firebase functions <br />
+### Install Firebase functions
 <br />
 **Run: npm install -g firebase-tools**<br />
 **Cd into the functions folder and run npm install**<br />
@@ -59,9 +58,7 @@ On the same functions folder run **"firebase deploy"** to deploy your functions 
 **Copy the Function URL**
 <br />
 
-
  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/FunctionURL.png" width="65%" height="65%">
-
 <br />
 - Go to your Dialogflow agent page, click on **Fulfillment** on the left menu.<br />
 - Then enable Webhook and past the link of the functions.<br />
@@ -76,6 +73,6 @@ On the same functions folder run **"firebase deploy"** to deploy your functions 
 <br />
  <img src="https://github.com/ferdelamad/DialogflowFirebaseRestaurantBot/blob/master/imgs/tutorial/Simulator.png" width="30%" height="30%">
 <br />
-You can integrate your bot with Facebook or Slack in the "Integrations" menu of your Dialogflow console.
+You can integrate your bot with Facebook or Slack in the **"Integrations"** menu of your Dialogflow console.
 
 **Happy hacking!**
